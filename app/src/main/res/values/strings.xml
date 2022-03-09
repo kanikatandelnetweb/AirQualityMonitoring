@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AirQualitMonitoring</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="aqi">AQI</string>
+    <string name="time_in_seconds">Time, in seconds</string>
+    <string name="socket_failure">Something went wrong, try again later</string>
+    <string name="no_internet">No Internet Connection, connect to internet</string>
+</resources>
