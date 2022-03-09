@@ -1,14 +1,15 @@
-<h1 align="center">Simple AQI</h1>
+<h1 align="center">Air Quality Monitoring</h1>
 
 <p align="center">
-This is an Android  App which shows live AQI (Air quality index) data for different cities using Web-socket.<br>This project is for focusing especially on the new jetpack libraries.<br>
+This is an Android  App which shows live AQI (Air quality index) data for different cities using Web-socket.
+<br>This project is for focusing especially on the new jetpack libraries.<br>
 Also fetching data from the network and integrating persisted data in the database via repository pattern.
 </p>
 <br>
 
 <p align="center">
-  <img alt="home" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/blob/master/screenshots/citylist.png" width=200/>
-  <img alt="graph" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/blob/master/screenshots/graph.png" width=200/>
+  <img alt="home" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/master/screenshots/citylist.png" width=200/>
+  <img alt="graph" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/master/screenshots/graph.png" width=200/>
 </p><br>
 
 
@@ -54,7 +55,6 @@ Also fetching data from the network and integrating persisted data in the databa
 - Chart library integration / Chart datasource / UI configuration: 4 hours
 - Error handling and UI: 1 hour
 <br>
-
 ## Libraries and tech used
 - Hilt for dependency injection.
 - JetPack
@@ -62,11 +62,10 @@ Also fetching data from the network and integrating persisted data in the databa
   - Lifecycle - observing data when lifecycle state changes.
   - ViewModel - lifecycle aware UI related data holder.
   - Room Persistence - construct a database to store city aqi data.
+  <br>
 - Architecture
   - MVVM Architecture (View - DataBinding - ViewModel - Model)
 - [OkHttp3](https://github.com/square/okhttp) - for WebSocket connection.
 - [Gson](https://github.com/google/gson/) - A JSON library for parsing network response.
 - [Material-Components](https://github.com/material-components/material-components-android) - Material design components for CardView.
-<br>
-
 <br>
