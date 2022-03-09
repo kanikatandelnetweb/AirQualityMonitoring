@@ -39,8 +39,7 @@ class AirQaulityDataListAdapter(private val onCityClicked: (AirQaulityDataModel)
         fun bind(airQaulityDataModel: AirQaulityDataModel) {
             itemBinding.txtCity.text = airQaulityDataModel.city
             itemBinding.txtAqi.text = airQaulityDataModel.aqi.roundTo(2)
-           // setCategoryColor(airQaulityDataModel.aqi,itemBinding.txtCategory)
-            itemBinding.txtCategory.text = getAqiStatus(airQaulityDataModel.aqi)
+           setCategoryColor(airQaulityDataModel.aqi,itemBinding.txtCategory)
             itemBinding.txtAqiStatus.text = airQaulityDataModel.lastUpdated
             val aqiColor = airQaulityDataModel.aqiColor
             if (aqiColor != null)

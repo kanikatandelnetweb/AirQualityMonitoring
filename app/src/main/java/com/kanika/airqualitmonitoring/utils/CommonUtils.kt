@@ -101,23 +101,6 @@ fun setAqiColor(aqi: Double): Int {
     return R.color.black
 }
 
-fun getAqiStatus(aqi: Double): String {
-    if (aqi > 0 && aqi < 50) {
-        return "Good" //Good
-    } else if (aqi > 50 && aqi < 100) {
-        return "Satisfactory" //Moderate
-    } else if (aqi > 100 && aqi < 200) {
-        return "Moderate" //Unhealthy for Sensitive Groups
-    } else if (aqi > 200 && aqi < 300) {
-        return "Poor" //Unhealthy
-    } else if (aqi > 300 && aqi < 400) {
-        return "Very Poor" //Very Unhealthy
-    } else if (aqi > 400 && aqi < 500) {
-        return "Severe" //Hazardous
-    }
-    return "Radioactive"
-}
-
  fun setCategoryColor(aqi: Double, txtCategory: TextView) {
     if (aqi > 0 && aqi < 50) {
         val codeColor = Color.rgb(85,168,79)

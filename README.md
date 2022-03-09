@@ -8,8 +8,8 @@ Also fetching data from the network and integrating persisted data in the databa
 <br>
 
 <p align="center">
-  <img alt="home" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/master/screenshots/citylist.png" width=200/>
-  <img alt="graph" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/master/screenshots/graph.png" width=200/>
+  <img alt="home" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/blob/master/screenshots/citylist.jpg" width=200/>
+  <img alt="graph" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/blob/master/screenshots/graph.jpg" width=200/>
 </p><br>
 
 
@@ -21,14 +21,16 @@ Also fetching data from the network and integrating persisted data in the databa
 - Error handling for Socket connection.
 <br>
 ## Note
-- Suppose AQI value is *50.23* which lies between *Good* and *Satisfactory* Categoty. In that case, it is consider to be in *Good* category. We can change this logic as required.
+- Suppose AQI value is *50.23* which lies between *Good* and *Satisfactory* Categoty.
+- In that case, it is consider to be in *Good* category. We can change this logic as required.
 <br>
 ## Architecture
 - MVVM code architecture pattern is used.
 <br>
 - City list
     - *ViewModel* of City list connects to the web socket and listens to the callbacks.
-    - It creates *CityModel* if it doesn't already exist (using city name) and adds *AQIModel* in aqi history array. If city already exist, it just adds *AQIModel*.
+    - It creates *CityModel* if it doesn't already exist (using city name) and adds
+    *AQIModel* in aqi history array. If city already exist, it just adds *AQIModel*.
     - Once datasource is prepared, *ViewModel* updates *View* using delegate to refresh the table.
     - If there is error in socket connection, it updates *View* and user is promoted with error message with *Retry* button.
 <br>
