@@ -10,6 +10,7 @@ Also fetching data from the network and integrating persisted data in the databa
 <p align="center">
   <img alt="home" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/blob/master/screenshots/citylist.jpg" width=200/>
   <img alt="graph" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/blob/master/screenshots/graph.jpg" width=200/>
+   <img alt="graph" src="https://github.com/kanikatandelnetweb/AirQualityMonitoring/blob/master/screenshots/graph1.jpg" width=200/>
 </p><br>
 
 
